@@ -7,7 +7,7 @@ resource "aws_instance" "name" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "dev"
+    Name = "dev2"
   }
 //  # lifecycle {
 //  # prevent_destroy = true
